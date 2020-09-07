@@ -1,0 +1,168 @@
+@charset "UTF-8";
+@media (max-width: 1200px) {
+  /* line 2, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .block-product {
+    grid-template-columns: repeat(3, 1fr); } }
+
+@media (max-width: 992px) {
+  /* line 7, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .block-product {
+    grid-template-columns: repeat(2, 1fr); }
+  /* line 10, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .block-product__item:nth-child(even) {
+    display: none; }
+  /* line 13, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .quality-inner {
+    grid-template-columns: repeat(2, 1fr); }
+  /* line 16, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .markets-img {
+    display: none; }
+  /* line 19, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .footer-social {
+    display: flex;
+    flex-direction: column; }
+  /* line 23, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .markets-inner {
+    display: block;
+    text-align: center; }
+  /* line 27, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .footer-social-img {
+    margin-right: 10px;
+    margin-bottom: 10px; }
+    /* line 30, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+    .footer-social-img:last-child {
+      margin: 0; } }
+
+@media (max-width: 884px) {
+  /* line 36, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .nav-list {
+    display: none; }
+  /* line 39, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .hamburger-menu {
+    display: block; }
+  /* line 42, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .first__item {
+    margin-top: 50px; }
+  /* line 45, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .quality-inner__text {
+    display: none; }
+  /* line 48, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .quality-img__item {
+    align-items: center; }
+  /* line 51, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .sub-img {
+    max-width: 190px; } }
+
+@media (max-width: 768px) {
+  /* line 56, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .farms-inner {
+    grid-template-columns: repeat(3, 1fr); }
+  /* line 59, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .farms-inner__item:nth-child(even) {
+    display: none; }
+  /* line 62, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .farms-inner__item {
+    padding: 10px 15px 13px 15px; }
+  /* line 65, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .block-product {
+    grid-gap: 15px; }
+  /* line 68, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .footer-inner {
+    grid-gap: 30px; }
+  /* line 71, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .text-2 {
+    display: none; }
+  /* line 74, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .kosher-name, .logo-name {
+    display: none; }
+  /* line 77, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .receipes-inner {
+    grid-gap: 25px; }
+  /* line 80, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .trout-text {
+    font-size: 15px; } }
+
+@media (max-width: 696px) {
+  /* line 86, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .btn-2::before {
+    top: 22px; }
+  /* line 90, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  nav img {
+    width: 65px;
+    height: 61px; }
+  /* line 94, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .receipes-subtitle {
+    display: none; }
+  /* line 97, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .tagline {
+    display: none; } }
+
+@media (max-width: 531px) {
+  /* line 102, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .block-product {
+    grid-template-columns: repeat(1, 1fr); }
+  /* line 105, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .title-h3 {
+    font-size: 30px; }
+  /* line 108, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .quality-inner {
+    grid-gap: 30px; }
+  /* line 111, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .receipes-inner {
+    grid-template-columns: 1fr; }
+  /* line 114, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .receipes__text {
+    padding: 15px 20px 5px 20px; }
+  /* line 117, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .farms-inner {
+    grid-gap: 15px; }
+  /* line 120, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .brochures-inner {
+    grid-template-columns: repeat(1, 1fr); }
+  /* line 123, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .btn-2 {
+    font-size: 15px; }
+  /* line 126, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .btn-2:before {
+    top: 10px; }
+  /* line 129, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .vector::before, .vector::after {
+    top: 70px; }
+  /* line 132, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .news-inner {
+    grid-template-columns: repeat(1, 1fr); } }
+
+@media (max-width: 480px) {
+  /* line 138, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .footer-inner {
+    grid-gap: 15px; }
+  /* line 141, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .footer-logo {
+    margin-right: 10px; }
+  /* line 144, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .copyright {
+    font-size: 12px; }
+  /* line 147, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .farms-inner {
+    grid-template-columns: repeat(2, 1fr); }
+  /* line 150, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .farms-inner__item:nth-child(even) {
+    display: none; } }
+
+@media (max-width: 420px) {
+  /* line 157, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .quality-inner {
+    grid-template-columns: 1fr; } }
+
+@media (max-width: 376px) {
+  /* line 162, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .vector::before, .vector::after {
+    top: 92px; }
+  /* line 165, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .vector::before {
+    right: 10px; }
+  /* line 168, ../../../../../Desktop/RoadMap/Сайты/salmon/#source/media.scss */
+  .vector::after {
+    left: 10px; } }
+
+/*# sourceMappingURL=media.css.map */
